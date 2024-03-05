@@ -4,16 +4,7 @@ body {
 h1 {
   color: #c6bca5;
 }
-.App {
-  text-align: center;
-}
 
-.form {
-  max-width: fit-content;
-  margin: 0 auto;
-  display: flex;
-  justify-content: center;
-}
 input {
   margin: 10px;
   width: 300px;
@@ -34,4 +25,31 @@ button {
   font-size: 16px;
   margin: 4px 2px;
   cursor: pointer;
+}
+ul {
+  display: grid;
+  place-items: center;
+}
+
+
+li{list-style-type: none;
+border: 3px solid #c6bca5;
+width:320px;
+height:40px;
+color:#efe5de ;
+background-color: rgba(255, 255, 255, 0.201);
+font-family: monospace;
+font-size: 20px;
+padding-top:8px;
+margin:10px;}
+
+.App {
+  text-align: center;
+}
+
+.form {
+  max-width: fit-content;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
 }
